@@ -1,0 +1,22 @@
+.navbar_barContent {
+  height: 54px;
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+.navbar_right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar_img_margin {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.navbar_right_img {
+  margin-top: 8px;
+}
+.navbar_dialogContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

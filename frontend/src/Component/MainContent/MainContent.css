@@ -1,0 +1,9 @@
+.mainContent_heading {
+  color: #1462d7;
+  margin-left: 156px;
+}
+.mainContent_jobList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
