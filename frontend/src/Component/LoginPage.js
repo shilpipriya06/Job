@@ -23,12 +23,19 @@ export default function LoginPage() {
             <Grid container>
                 <Grid item xs={2}>
                 </Grid>
+
                 <Grid item xs={8}>
                     <div className='loginpage_main'>
+
+                        {/*Image*/}
                         <div>
                             <img src={login_img} width="500px" alt=''></img>
                         </div>
+
+                        {/*Login box*/}
                         <div className='loginpage_rightComponent'>
+
+                            {/*SignIn Div*/}
                             <div className='loginpage_signin'>
 
                                 {
@@ -36,6 +43,8 @@ export default function LoginPage() {
                                 }
 
                             </div>
+
+                            {/*SignIn/SignUp Option Div*/}
                             <div>
                                 {
                                     isLogin ?
@@ -49,9 +58,10 @@ export default function LoginPage() {
 
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </Grid>
+
                 <Grid item xs={2}>
                 </Grid>
             </Grid>

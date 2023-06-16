@@ -3,6 +3,7 @@ package com.tyss.job.portal.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Description;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,6 +26,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 @RestController
 @RequestMapping("/api/v1")
 @OpenAPIDefinition(info = @Info(title = "JOB PORTAL", description = "SEARCH AND POST JOBS", version = "V1"))
+@CrossOrigin("*")
 public class JobController {
 
 	@Autowired
