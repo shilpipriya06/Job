@@ -38,7 +38,7 @@ export default function Register() {
                 alert("Registered Successfully")
             }
         } catch (error) {
-            // Handle error (e.g., show error message)
+            console.log("Error in register")
         }
     };
 
